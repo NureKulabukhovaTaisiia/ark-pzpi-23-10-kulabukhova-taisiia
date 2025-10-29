@@ -9,7 +9,7 @@
 ЗВІТ
 з практичної роботи
 з дисципліни «Аналіз та рефакторінг коду»
-на тему «Керівництво з оформлення та стилю коду на мові JavaScript за стандартами Airbnb та jQuery.»
+на тему «Правила з оформлення та стилю коду на мові JavaScript за стандартами Airbnb.»
 
 
 
@@ -28,7 +28,27 @@
 
 Харків 2025
 1. ІСТОРІЯ ЗМІН
-№ДатаВерсія звітуОпис змін та виправлень101.10.250.1Створено розділ “Опис виконаної роботи”205.10.250.1Створено додаток а, додаток б.310.10.250.1Створено розділи “Історія змін”, “Завдання”, “Висновки”420.10.250.1Створено додаток в.      
+№
+Дата
+Версія звіту
+Опис змін та виправлень
+1
+01.10.25
+0.1
+Створено розділ “Опис виконаної роботи”
+2
+05.10.25
+0.1
+Створено додаток а, додаток б.
+3
+10.10.25
+0.1
+Створено розділи “Історія змін”, “Завдання”, “Висновки”
+4
+20.10.25
+0.1
+Створено додаток в.
+      
 
 
 2. ЗАВДАННЯ
@@ -183,52 +203,62 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 4
 5
 6
-7// Погано 
+7
+// Погано 
 let x = 5; 
 let y = 10;
 
 // Добре
 let userAge = 5;
 let maxUsers = 10;
-
+
+
 В.2 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
  1
  2
- 3 var oldVar = "старий"; // не рекомендується
+ 3
+ var oldVar = "старий"; // не рекомендується
  let userName = "Anna"; // змінна
  const PI = 3.14; // константа
  
- 
+ 
+
 В.3 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
 3
 4
-5// Погано
+5
+// Погано
 function sum(a,b){return a+b;}
 // Добре
 function sum(a, b) {
-return a + b;
+return a + b;
+
 В.4 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
-2  console.log(5 == "5"); // true
+2
+  console.log(5 == "5"); // true
   console.log(5 === "5");  // false
-  
+  
+
 В.5 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
 3
 4
-5// Погано
+5
+// Погано
 console.log("Hello");
 console.log("Hello");
 // Добре
 function greet() { console.log("Hello"); } greet();
-
+
+
 В.6 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -236,24 +266,28 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 3
 4
 5
-6//Старе
+6
+//Старе
 function add(a, b) {
   return a + b;
 }
 //Нове
 const add = (a, b) => a + b;
-
+
+
 В.7 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
 3
-4const isLoggedIn = true;
+4
+const isLoggedIn = true;
 const message = isLoggedIn ? "Ви в системі" : "Будь ласка, увійдіть";
 
 console.log(message);
 
-В.8 Приклад оформлення програмного коду
+
+В.8 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
@@ -261,25 +295,29 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 4
 5
 6
-7const user = {name: "Anna", age: 20};
+7
+const user = {name: "Anna", age: 20};
 const {name, age} = user;
 console.log(name, age);
 
 const arr = [1, 2, 3];
 const [first, second] = arr;
   console.log(first, second);
-  
+  
+
 В.9 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
 3
 4
-5try {
+5
+try {
     JSON.parse("неправильний JSON");
 } catch (error) {
     console.error("Помилка:", error.message);
-}
+}
+
 В.10 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -290,7 +328,8 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 6
 7
 8
-9/**
+9
+/**
  * Функція обчислює площу прямокутника
  * @param {number} width - ширина
  * @param {number} height - висота
@@ -298,7 +337,8 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
  */
 function rectangleArea(width, height) {
     return width * height;
-}
+}
+
 В.11 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -307,14 +347,16 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 4
 5
 6
-7//Погано
+7
+//Погано
 let discountedPrice1 = 500 * 0.4;
 
 //Добре
 const DISCOUNT_RATE = 0.4; // знижка 20%
 let originalPrice = 500;
 let discountedPrice2 = originalPrice * (1 - DISCOUNT_RATE);
-
+
+
 В.12 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -325,7 +367,8 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 6
 7
 8
-9async function fetchData() {
+9
+async function fetchData() {
     try {
         let response = await fetch("https://api.example.com/data");
         let data = await response.json();
@@ -333,7 +376,8 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
     } catch (error) {
         console.error("Помилка запиту:", error);
     }
-}В.13 Приклад оформлення програмного коду
+}
+В.13 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 
  1
@@ -341,12 +385,14 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
  3
  4
  5
- 6 // math.js
+ 6
+ // math.js
  export const add = (a, b) => a + b;
  
  // main.js
  import { add } from './math.js';
- console.log(add(5, 3));
+ console.log(add(5, 3));
+
 В.14 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -354,22 +400,28 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 3
 4
 5
-6const mySet = new Set([1, 2, 2, 3]);
+6
+const mySet = new Set([1, 2, 2, 3]);
 console.log(mySet); // Set {1, 2, 3}
 
 const myMap = new Map();
 myMap.set("name", "Anna");
 console.log(myMap.get("name")); // Anna
-В.15 Приклад оформлення програмного коду
+
+
+
+В.15 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
 2
 3
-4# Перевірка коду 
+4
+# Перевірка коду 
 npx eslint script.js 
 # Автоматичне форматування 
 npx prettier --write script.js
-
+
+
 В.16 Приклад оформлення програмного коду
 GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzpi-23-10-kulabukhova-taisiia/blob/main/Pract1/ark-pzpi-23-10-Serhiehieva-Taisiia-pract1/code-examples-code-conventions.js
 1
@@ -392,7 +444,8 @@ GitHub репозиторій: https://github.com/NureKulabukhovaTaisiia/ark-pzp
 18
 19
 20
-21// Jest
+21
+// Jest
 test("додає два числа", () => {
     expect(2 + 3).toBe(5);
 });
@@ -412,9 +465,12 @@ describe("multiply", function() {
     it("множить на нуль", function() {
         assert.strictEqual(multiply(5, 0), 0);
     });
-});         
+});
+         
 
 
 2
+
+
 
 
