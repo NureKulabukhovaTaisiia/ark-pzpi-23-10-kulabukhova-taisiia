@@ -6,4 +6,4 @@
 
 Правила з оформлення та стилю коду на мові JavaScript за стандартами Airbnb.
 
-Методи рефакторинґу: Move Field, Add Parameter, Pull Up Method на прикладі мови програмування JavaScript
+Методи рефакторинґу: Move Field, Add Parameter, Pull Up Method на прикладі мови програмування C#
